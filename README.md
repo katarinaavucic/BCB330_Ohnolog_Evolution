@@ -26,21 +26,21 @@ Expression data for the analysis on expression correlation in tomato was retriev
 
 ### Code Usage:
 
-## Generate Embeddings:
+#### Generate Embeddings:
 1. Run run_extract.sh to execute extract_embeddings.py in order to generate the protein embeddings for a given species.
 2. Execute combine_plant_embeddings.py to combine all protein embedding files for a given species.
 
-## Protein Sequence Similarity Ranking:
+#### Protein Sequence Similarity Ranking:
 3. Run run_dist.sh for generate_dist_matrix.py to produce the protein sequence distance matrix.
 4. Run run_generate.sh for each generate_comparison_df_*.py to generate the protein sequence ranks for each species.
 
-## Coexpression Ranking:
+#### Coexpression Ranking:
 5. Run run_coexp.sh for each generate_coexp_ranks_*.py to generate the coexpression ranks for each species.
 
-## Expression Correlation Across Tissues:
+#### Expression Correlation Across Tissues:
 6. Run run_generate.sh for generate_expression_correlation.py to generate the expression correlation across tissues in tomato.
 
-## Miscellaneous:
+#### Miscellaneous:
 7. Run run_get_ids.sh for get_uniprot_ids.py to retrieve the ids for any species to allow for easier mapping across assemblies.
 8. Run run_get_ids.sh for create_conversion_df.maize to convert between assemblies.
 

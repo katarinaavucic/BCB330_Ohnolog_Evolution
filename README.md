@@ -1,6 +1,4 @@
-# BCB330_Ohnolog_Evolution
-
-## Investigating Evolution of Ohnologs in Solanum lycopersicum through Protein and Gene Expression Data Analysis Using Protein Language Models
+# Exploring Ohnolog Differentiation in Plant Genomes: A Computational Analysis Using Protein Language Models (pLMs)
 
 ### Author:
 Katarina A. Vucic  
